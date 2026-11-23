@@ -1,0 +1,24 @@
+#Logo {
+    max-width: 50px;
+    height: 50px;
+}
+
+.Anova{
+    border: solid;
+    background-color: chocolate;
+    border-style: double;
+    border-color: purple;
+    border-width: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.Ori{
+ border: solid;
+ border-style: double;
+ border-color: black;
+ background-color: purple;
+ border-width: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: larger;
+}

@@ -1,0 +1,49 @@
+#Logo {
+    width: 50px;
+    height: 50px;
+}
+
+.Heading-ME{
+border: solid;
+border-color: rgb(0, 0, 0);
+border-style: solid;
+background-color: rgb(128, 6, 6);
+border-width: 20px;
+}
+
+.ME{
+border: solid;
+border-color: rgb(0, 0, 0);
+border-style: solid;
+background-color: rgb(128, 6, 6);
+border-width: 20px;
+font-family: fantasy;
+font-size: 20px;
+}
+
+.Minecraft{
+border: solid;
+border-top-color: green;
+border-bottom-color: brown;
+border-right-color: brown;
+border-left-color: brown;
+border-style: solid;
+background-color: brown;
+border-width: 20px;
+font-family: sans-serif ;
+}
+
+.Heading-P5R{
+    border: solid;
+    background-color: crimson;
+    border-width: 20px;
+}
+
+.P5R{
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: crimson;
+    border-width: 20px;
+    font-family: sans-serif;
+    font-size: medium;
+}

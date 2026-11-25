@@ -19,5 +19,43 @@
         }
     </script>
 
+    <script>
+        function cookies() {
+            alert("Deze website gebruikt Cookies.")
+        }
+    </script>
+
+    <dialog id="cookie-notice" aria-labelledby="cookie-title">
+  <h2 id="cookie-title">Cookies</h2>
+  <p>We use necessary cookies to run this site. With your permission, we’d also like to use optional cookies. <a href="/privacy">Learn more</a>.</p>
+  <button id="reject-cookies">Reject optional</button>
+  <button id="accept-cookies">Accept optional</button>
+</dialog>
+
+<script>
+  const notice = document.getElementById("cookie-notice");
+  const choiceKey = "cookie-consent";
+
+  if (!localStorage.getItem(choiceKey)) {
+    notice.showModal();
+  }
+
+  notice.addEventListener("cancel", event => event.preventDefault());
+
+  document.getElementById("accept-cookies").addEventListener("click", () => {
+    localStorage.setItem(choiceKey, "accepted");
+    notice.close();
+    enableOptionalCookies();
+  });
+
+  document.getElementById("reject-cookies").addEventListener("click", () => {
+    localStorage.setItem(choiceKey, "rejected");
+    notice.close();
+  });
+
+  function enableOptionalCookies() {
+  }
+</script>
+
 </body>
 </html>
